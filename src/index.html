@@ -4,10 +4,30 @@
 <head>
   <meta charset="utf-8">
   <title>Analizador de texto</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css" /> 
 </head>
 
 <body>
-  <script src="index.js" type="module"></script>
+  <header>
+   <h1>Analizador de texto</h1>
+  </header>
+
+ <textarea type="text" name="user-input" placeholder="Escribe aquí"></textarea>
+
+ <ul> 
+  <li class="bordeado" data-testid="word-count">Palabras:<span id="contador">0</span> </li>
+  <li class="bordeado" data-testid="character-count">Caracteres</li>
+  <li class="bordeado" data-testid="character-no-spaces-count" >Caracteres sin espacios</li>
+  <li class="bordeado" data-testid="number-count">Números</li>
+  <li class="bordeado" data-testid="number-sum">Suma de números</li>
+  <li class="bordeado" data-testid="word-length-average">Longitud de palabras</li>
+ </ul>
+
+ <button id="limpiarTexto">Limpiar</button>
+
+ <footer> <p>Jessica Clemente &copy 2023</p></footer>
+
+ <script type="module" src="index.js"></script>
+
 </body>
 </html>
