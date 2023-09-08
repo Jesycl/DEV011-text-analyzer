@@ -26,10 +26,11 @@ const analyzer = {
     const numbers = text.match(/\d+/g);
     let sum = 0;
 
-    if(numbers != null){
-      numbers.forEach(number => {
-        sum += Number(number);
-      });
+    if(numbers !== null){
+
+      for(let i = 0; i < numbers.length; i++){
+        sum += Number(numbers[i]);
+      }
     }
     return sum;
   },
