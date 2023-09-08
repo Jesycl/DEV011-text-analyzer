@@ -34,94 +34,14 @@ textarea[name="user-input"]{
     font-style: italic;
 }
 
-p{
+footer{
     border: black;
     color: rebeccapurple;
     padding:20px;
     font-style: italic;
 }
 
-.borde1{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    list-style-type: none;
-    background-color:#add5fa;
-    border: 1px solid #ffe4e1;
-    margin: 20px 20px 25px 30px;
-    padding: 10px 20px 15px 10px;
-    width: 180px;
-    margin-left: auto; 
-    margin-right: auto; 
-    display: block;
-    border-style:inset;
-    border-width: 8px;
-    border-color: #84b6f4;
-    font-style: oblique; 
-}
-.borde2{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    list-style-type: none;
-    background-color:#add5fa;
-    border: 1px solid #ffe4e1;
-    margin: 20px 20px 25px 30px;
-    padding: 10px 20px 15px 10px;
-    width: 180px;
-    margin-left: auto; 
-    margin-right: auto; 
-    display: block;
-    border-style:inset;
-    border-width: 8px;
-    border-color: #84b6f4;
-    font-style: oblique; 
-}
-.borde3{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    list-style-type: none;
-    background-color:#add5fa;
-    border: 1px solid #ffe4e1;
-    margin: 20px 20px 25px 30px;
-    padding: 10px 20px 15px 10px;
-    width: 180px;
-    margin-left: auto; 
-    margin-right: auto; 
-    display: block;
-    border-style:inset;
-    border-width: 8px;
-    border-color: #84b6f4;
-    font-style: oblique; 
-}
-.borde4{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    list-style-type: none;
-    background-color:#add5fa;
-    border: 1px solid #ffe4e1;
-    margin: 20px 20px 25px 30px;
-    padding: 10px 20px 15px 10px;
-    width: 180px;
-    margin-left: auto; 
-    margin-right: auto; 
-    display: block;
-    border-style:inset;
-    border-width: 8px;
-    border-color: #84b6f4;
-    font-style: oblique; 
-}
-.borde5{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    list-style-type: none;
-    background-color:#add5fa;
-    border: 1px solid #ffe4e1;
-    margin: 20px 20px 25px 30px;
-    padding: 10px 20px 15px 10px;
-    width: 180px;
-    margin-left: auto; 
-    margin-right: auto; 
-    display: block;
-    border-style:inset;
-    border-width: 8px;
-    border-color: #84b6f4;
-    font-style: oblique; 
-}
-.borde6{
+.borde{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     list-style-type: none;
     background-color:#add5fa;
