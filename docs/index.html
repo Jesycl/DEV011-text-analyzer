@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Analizador de texto</title>
+  <link rel="stylesheet" href="style.css" /> 
+</head>
+
+<body>
+  <header>
+   <h1>Analizador de texto</h1>
+  </header>
+
+
+  
+  <div>
+    <textarea type="text" name="user-input" rows="4" cols="30" placeholder="Escribe aquí"></textarea>
+    <ul> 
+      <li class="borde" data-testid="word-count">Palabras:<span id="contador">0</span></li>
+      <li class="borde" data-testid="character-count">Caracteres:<span id="character">0</span></li>
+      <li class="borde" data-testid="character-no-spaces-count">Caracteres sin espacios:<span id="spaces">0</span></li>
+      <li class="borde" data-testid="number-count">Números:<span id="number">0</span></li>
+      <li class="borde" data-testid="number-sum">Suma de números:<span id="sum">0</span></li>
+      <li class="borde" data-testid="word-length-average">Longitud de palabras:<span id="length">0</span></li>
+    </ul>
+  </div>
+
+ <button id="reset-button">Limpiar métricas</button>
+
+ <footer><p>Jessica Clemente &copy 2023</p></footer>
+
+ <script type="module" src="index.js"></script>
+
+</body>
+</html>

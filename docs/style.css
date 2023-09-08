@@ -1,0 +1,72 @@
+
+body{
+    background-color:#e6e6fa;
+    
+}
+
+header{
+    color: #fa34df;
+    text-align: center;   
+    font-style: oblique;
+    font-size: x-large;
+    font-size: 2rem;
+  text-shadow:
+    -1px -1px 3px #999,
+    0 0 1px darkred,
+    1px 1px 1px red,
+    2px 2px 1px #555,
+    3px 3px 1px #222,
+    4px 4px 1px #000;
+
+}
+textarea[name="user-input"]{
+    background-color:#e4fbfb;
+    border: 1px solid black;  
+    margin: 15px 20px 25px 30px;
+    padding: 10px 20px 15px 10px;
+    width: 300px;
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block;
+    border-style:ridge;
+    border-width: 8px;
+    border-color: #8dfda1;
+    font-style: italic;
+}
+
+footer{
+    border: black;
+    color: rebeccapurple;
+    padding:20px;
+    font-style: italic;
+}
+
+.borde{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style-type: none;
+    background-color:#add5fa;
+    border: 1px solid #ffe4e1;
+    margin: 20px 20px 25px 30px;
+    padding: 10px 20px 15px 10px;
+    width: 180px;
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block;
+    border-style:inset;
+    border-width: 8px;
+    border-color: #84b6f4;
+    font-style: oblique; 
+}
+#reset-button{
+    cursor: pointer;
+    margin-left: auto; 
+    margin-right: auto; 
+    /* Margen derecho automático */
+    display: block;
+    border-style: groove;
+    border-width: 6px;
+    border-color: #fa5f49 ;
+    font-size: 15px;
+    font-style: italic;
+    background-color: #fa5f49;
+}
