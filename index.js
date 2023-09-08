@@ -57,7 +57,7 @@ textarea.addEventListener("input", function() {
   //actualiza el contenido de texto del elemento numberCount seguido de etiqueta y valor numérico
   numberCount.textContent = `Números encontrados: ${count}`;
   //Invoca el metodo para contar numeros
-  let sum = analyzer.getNumberSum(texto);
+  const sum = analyzer.getNumberSum(texto);
   numberSum.textContent = `Suma de Numeros:  ${sum}`;
   const averageWordLength = analyzer.getAverageWordLength(texto);
   wordLengthAverage.textContent = `Longitud media:  ${averageWordLength}`;
