@@ -6,12 +6,12 @@ const textarea = document.getElementsByName("user-input")[0];
 const resetButton = document.getElementById("reset-button");
 //////Variables globales/////
 //Seleccionar el primer elemento en el documento que tiene un atributo 'data-testid'
-const characterCount = document.querySelector('[data-testid="character-count"]');
-const characterNoSpacesCount = document.querySelector('[data-testid="character-no-spaces-count"]');
-const numberCount = document.querySelector('[data-testid="number-count"]');
-const numberSum = document.querySelector('[data-testid="number-sum"]');
-const wordLengthAverage = document.querySelector('[data-testid="word-length-average"]');
-const wordCount = document.querySelector('[data-testid="word-count"]');
+const characterCount = document.querySelector('li[data-testid="character-count"]');
+const characterNoSpacesCount = document.querySelector('li[data-testid="character-no-spaces-count"]');
+const numberCount = document.querySelector('li[data-testid="number-count"]');
+const numberSum = document.querySelector('li[data-testid="number-sum"]');
+const wordLengthAverage = document.querySelector('li[data-testid="word-length-average"]');
+const wordCount = document.querySelector('li[data-testid="word-count"]');
 // Agregar un evento de escucha para el evento 'keyup' en el textarea
 textarea.addEventListener('keyup', actualizarContador);
 function actualizarContador() {
